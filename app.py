@@ -10,3 +10,4 @@ if st.button("Test this"):
   plt.xlabel("Time")
   plt.ylabel("Value")
   plt.show()
+  st/pyplot(plt.gcf())
