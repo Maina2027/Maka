@@ -2,6 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import streamlit as st
 # Generate random time series data
+st.header("Anything")
 time_series = np.random.randn(100)
 
 if st.button("Test this"):
